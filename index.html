@@ -141,10 +141,13 @@ This agency known in Pinterest advises you design services.
 
 		<div class="requirements" id="zen-requirements" role="article">
 			<h3>Need Details or Order click Button </h3>
-			<a href="https://docs.google.com/forms/d/e/1FAIpQLSd4bo5q8xKG4RgNJSRmcPRiXgG4PyL7KypKoFOVE7DKonRoIA/viewform?usp=sf_link" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Order Button</a>
-			<p>Warning ! Please leave your order  filling out the form above and we will contact you for more details.<br>
-Don't worry, this process is fast we care for our customers! <br>
-Thank you & have a nice day ;)</p>
+			<form action="https://getsimpleform.com/messages?form_api_token=e9b147c8b4d328e5b706f1e66c10da50" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+  <!-- all your input fields here.... -->
+  <input type='text' name='test' />
+  <input type='submit' value='Test form' />
+</form>
 </div>
 			
 			<form action="https://getsimpleform.com/messages?form_api_token=e9b147c8b4d328e5b706f1e66c10da50" method="post">
